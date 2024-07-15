@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produce Athletics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar is-primary">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="images/logo.png" alt="Personal Trainer Logo" width="112" height="28">
+          </a>
+          <div class="navbar-burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#home">Home</a>
+                <a class="navbar-item" href="#team">Meet Our Team</a>
+                <a class="navbar-item" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home" class="hero is-medium is-primary is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">
+                    Welcome to Our Training Program
+                </h1>
+                <h2 class="subtitle">
+                    Transform Your Life with Expert Training
+                </h2>
+                <a class="button is-large is-light">Sign Up for Newsletter</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Meet Our Team Section -->
+    <section id="team" class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Meet Our Team</h2>
+            <div class="columns is-multiline">
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="trainer1.jpg" alt="Trainer 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Trainer 1</p>
+                                    <p class="subtitle is-6">Bio of Trainer 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more team members as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Contact Us</h2>
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <form>
+                        <div class="field">
+                            <label class="label" for="email">Email:</label>
+                            <div class="control">
+                                <input class="input" type="email" id="email" name="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-primary" type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
